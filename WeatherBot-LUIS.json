@@ -1,0 +1,159 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "WeatherBot",
+  "desc": "Devoxx - Bot Framework demo",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "GetWeatherForecast"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello there",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "yo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i'm hungry",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good day",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hallo",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "is it raining?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "what is the weather?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "how is the weather?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "what is the weather tomorrow?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "how is the weather in london?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "is it raining in london?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "batman",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what's the weather forecast?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "is it going to be hot tomorrow?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "is it going to be cold?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "what is weather like in seattle?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "is it going to be cold tomorrow in seattle?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "what's the weather going to be in london tomorrow?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "can you show me the weather forecast for washington?",
+      "intent": "GetWeatherForecast",
+      "entities": []
+    },
+    {
+      "text": "welcome to devoxx",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
